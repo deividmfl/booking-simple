@@ -38,3 +38,23 @@ export function formatDate(date: string | Date | null): string {
 export function clamp({ min, max, value }: ClampProp): number {
   return Math.max(min, Math.min(max, value));
 }
+
+// verify if  date is between the closest booking date and maxDate
+export function isOutsideRange(date, startDate, bookings, minDate, maxDate) {
+  if (startDate) {
+    let book: any[] = [];
+
+    bookings.map((booking) => book.push(booking.startDate));
+
+    const closestDate = book.find((b) => {
+      const diff = moment(b).diff(startDate, "days");
+      return diff >= 0;
+    });
+
+    if (!closestDate) return date.isAfter(maxDate) || date.isBefore(minDate);
+
+    return date.isAfter(closestDate) || date.isBefore(minDate);
+  }
+
+  return date.isAfter(maxDate) || date.isBefore(minDate);
+}

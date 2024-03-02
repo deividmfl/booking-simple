@@ -7,6 +7,7 @@ import "react-dates/constants";
 import "react-dates/initialize";
 import "react-dates/lib/css/_datepicker.css";
 import "./style.css";
+import { isOutsideRange } from "@/utils/helpers";
 const moment = extendMoment(Moment);
 
 export default function DatePicker({
@@ -34,25 +35,6 @@ export default function DatePicker({
     return booked;
   };
 
-  const isOutsideRange = (date) => {
-    if (startDate) {
-      let book: any[] = [];
-
-      bookings.map((booking) => book.push(booking.startDate));
-
-      const closestDate = book.find((b) => {
-        const diff = moment(b).diff(startDate, "days");
-        return diff >= 0;
-      });
-
-      if (!closestDate) return date.isAfter(maxDate) || date.isBefore(minDate);
-
-      return date.isAfter(closestDate) || date.isBefore(minDate);
-    }
-
-    return date.isAfter(maxDate) || date.isBefore(minDate);
-  };
-
   return (
     <DateRangePicker
       startDate={startDate}
@@ -73,7 +55,9 @@ export default function DatePicker({
         // @ts-expect-error
         setFocusedInput(focusedInput);
       }}
-      isOutsideRange={isOutsideRange}
+      isOutsideRange={(date) =>
+        isOutsideRange(date, startDate, bookings, minDate, maxDate)
+      }
     />
   );
 }

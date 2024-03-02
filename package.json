@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@loadable/component": "^5.16.3",
+    "@testing-library/react-hooks": "^8.0.1",
     "moment-range": "^4.0.2",
     "next": "^14.1.0",
     "nextjs": "^0.0.3",
@@ -19,6 +20,7 @@
     "react-dates": "^21.8.0",
     "react-dom": "^18",
     "react-icons": "^5.0.1",
+    "react-test-renderer": "^18.2.0",
     "react-with-styles": "^5.0.0",
     "ts-node": "^10.9.2",
     "uuid": "^9.0.1",
