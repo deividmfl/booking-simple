@@ -1,0 +1,10 @@
+[user]
+email = deividmflinhares2@gmail.com
+signingkey = deivid
+[commit]
+ gpsign = true
+ gpgsign = true
+[gpg]
+ program = /opt/homebrew/bin/gpg
+[tag]
+ gpgSign = true

@@ -1,0 +1,20 @@
+{
+    "id": "123",
+    "name": "Vitoria Urbano",
+    "email": "vitoria@gmail.com",
+    "paymentMethod": {
+        "holderName": "Deivid Linhares",
+        "number": "**** **** 9949 3598",
+        "expirationMonth": "12",
+        "expirationYear": "2025",
+        "cvv": "***"
+    },
+    "reservations": [
+        {
+            "id": 2,
+            "startDate": "02-05-2024",
+            "endDate": "02-07-2024",
+            "guests": 2
+        }
+    ]
+}

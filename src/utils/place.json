@@ -1,0 +1,84 @@
+{
+    "id": "1",
+    "title": "Monica's Apartment",
+    "roomType": "entire_house",
+    "roomTypeTitle": "Entire place",
+    "city": "Porto Alegre",
+    "country": "Brazil",
+    "averageDailyRate": 177.00,
+    "dateRangeMin": "02-01-2024",
+    "dateRangeMax": "06-01-2024",
+    "description": "Brand new information: Monica Geller tem um apê no Brasil! ❤ Awesome, right? I KNOW!\n\nFollow us: @apedamonica\n\nHave you ever imagined staying in one of New York's most famous apartments? Be a special guest at Monica Geller, with everything right: ordering pizza delivery, a relaxing bathtub, baking a lasagna on the stove, playing a song on the guitar, watching your favorite series on TV (Friends, obviously!), a meatball sandwich, preparing and having a good coffee, listening to music CDs, laughing with friends, resting on a beautiful night's sleep...All this is now possible here in Porto Alegre, in Monica's apartment! :D\n\nIn Monica's apartment in POA, she sought to bring the most important elements of her apartment in NYC. Of course, it's very (WELL) smaller here. But it has a kitchen equipped for a chef to cook, round table for meals, living room to gather friends, Monica's room (small), Rachel's room (small), bathroom with shower and bathtub, a hidden room, and even a window from the “terrace overlooking Greenwich Village”. And, of course, purple walls (obvious), antique furniture, many paintings, artificial flowers and so many other references to the original apt.",
+    "property": {
+        "beds": 2,
+        "bedrooms": 2,
+        "guests": 4,
+        "bathroom": 2
+    },
+    "gallery": [
+        {
+            "id": 1,
+            "img": "https://a0.muscache.com/im/pictures/miso/Hosting-51784793/original/0eee04df-fce2-4d8b-afb0-c64a845f8d0a.jpeg?im_w=1200",
+            "isCover": true
+        },
+        {
+            "id": 2,
+            "img": "https://a0.muscache.com/im/pictures/miso/Hosting-51784793/original/ca0f10a9-cf6b-42ca-9c20-db2fc254d04b.jpeg?im_w=1440",
+            "isCover": true
+        },
+        {
+            "id": 3,
+            "img": "https://a0.muscache.com/im/pictures/miso/Hosting-51784793/original/f95163f5-651c-4b1a-9f9b-8eef138170b5.jpeg?im_w=1440"
+        },
+        {
+            "id": 4,
+            "img": "https://a0.muscache.com/im/pictures/miso/Hosting-51784793/original/3e4612d3-b31b-42e5-9236-8b99503f8ff4.jpeg?im_w=1440"
+        },
+        {
+            "id": 5,
+            "img": "https://a0.muscache.com/im/pictures/miso/Hosting-51784793/original/3ce379cf-dc7b-44d4-bac1-752e29f06712.jpeg?im_w=1440"
+        }
+    ],
+    "amenities": [
+        {
+            "id": 1,
+            "title": "Dedicated workspace",
+            "subtext": "A room with wifi that’s well-suited for working.",
+            "icon": "HiDesktopComputer"
+        },
+        {
+            "id": 2,
+            "title": "Giovanna is a Superhost",
+            "subtext": "Superhosts are experienced, highly rated Hosts.",
+            "icon": "HiUserGroup"
+        },
+        {
+            "id": 3,
+            "title": "Free cancellation for 48 hours",
+            "icon": "HiCalendar"
+        }
+    ],
+    "reviews": [
+        {
+            "id": 1,
+            "stars": 5,
+            "reviwerName": "Debora",
+            "text": "Amazing experience!! When I entered the house, I felt really getting into the show.",
+            "img": "https://a0.muscache.com/im/pictures/user/User-543775637/original/50457f30-2372-4c88-9927-5d1f7f19030e.jpeg?im_w=240"
+        },
+        {
+            "id": 2,
+            "stars": 4,
+            "reviwerName": "Guilherme",
+            "text": "The apartment corresponds to what was proposed, being in great location and with an environment identical to that of the Friends series.",
+            "img": "https://a0.muscache.com/im/pictures/user/163dd188-b546-4a9a-b5d7-1c75f8917ac4.jpg?im_w=240"
+        },
+        {
+            "id": 3,
+            "stars": 5,
+            "reviwerName": "Dora",
+            "text": "Beautiful place! Congratulations to host on the idea and putting it into practice! ❤️",
+            "img": "https://a0.muscache.com/im/pictures/user/8c1a296a-b755-4cfb-a4b7-3d0394ea1d21.jpg?im_w=240"
+        }
+    ]
+}
